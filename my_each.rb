@@ -7,3 +7,13 @@ def my_each(array) # put argument(s) here
   end
 
 end
+
+def hello(array)
+  i = 0
+  collection = []
+  while i < array.length
+    collection << yield(array[i])
+    i += 1
+  end
+  collection
+end
