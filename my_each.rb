@@ -8,5 +8,5 @@ def my_each(array) # put argument(s) here
 
 end
 
-my_each(list) {|i| puts " I think #{i} "}
+my_each(collection) {|i| puts " I think #{i} "}
 
